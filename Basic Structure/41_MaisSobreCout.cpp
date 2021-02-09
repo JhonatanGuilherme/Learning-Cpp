@@ -22,5 +22,13 @@ int main() {
   cout << "Valor de num bem longe...: " << setw(10) << num << endl;
   cout << "Muitos zeros: " << setw(10) << setfill('0') << '0' << endl;
 
+  double a = 5.55;
+  double PI = 3.14159265;
+
+  cout.precision(5); // Define a precisão;
+  //cout << setiosflags (ios::fixed) << a << endl;
+  cout << PI << endl; // Imprime PI com 5 casas decimais;
+  //cout << setiosflags (ios::fixed) << setprecision(5) << PI; // Define e imprime PI com 5 casas decimais;
+
   return 0;
 }
