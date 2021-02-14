@@ -1,5 +1,5 @@
 #include <iostream>
-#include <vector>
+#include <vector> // Biblioteca para Vector
 
 using namespace std;
 
