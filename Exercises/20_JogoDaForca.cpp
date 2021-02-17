@@ -1,12 +1,10 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctype.h>
+#include <string>
 // #include <cstring> - Para utilizar strlen();
-using std::cin;
-using std::cout;
-using std::endl;
-using std::string;
-using std::toupper;
+
+using namespace std;
 
 int main() {
   const string palavrasAleatorias[] = {"Alegria", "Borboleta", "Celular", "Oxente", "Varanda"};

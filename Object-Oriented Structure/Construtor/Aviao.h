@@ -1,6 +1,8 @@
 #ifndef AVIAO_H_INCLUDED
 #define AVIAO_H_INCLUDED
 
+#include <string>
+
 using std::string;
 
 class Aviao{

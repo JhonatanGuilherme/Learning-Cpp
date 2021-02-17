@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 #include <queue> // Biblioteca para Filas;
 
 using std::cout;
