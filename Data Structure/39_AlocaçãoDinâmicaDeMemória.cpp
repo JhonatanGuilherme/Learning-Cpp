@@ -18,5 +18,7 @@ int main() {
 
   cout << flush; // Esvaziando o buffer de saída;
 
+  delete nome;
+
   return 0;
 }

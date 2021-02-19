@@ -20,5 +20,7 @@ int main() {
   *(++ptrArr) = 10;
   cout << arr[1] << endl;
 
+  delete ptr, ptrArr;
+
   return 0;
 }
